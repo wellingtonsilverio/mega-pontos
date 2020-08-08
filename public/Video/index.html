@@ -1,13 +1,22 @@
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
-<div id="SamplePlayerDivID"></div>
-<script type="text/javascript">
-  var options = {
-    width: 854,
-    height: 480,
-    channel: "dallas",
-    // only needed if your site is also embedded on embed.example.com and othersite.example.com
-    parent: ["wellingtonsilverio.github.io"],
-  };
-  var player = new Twitch.Player("SamplePlayerDivID", options);
-  player.setVolume(0.5);
-</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega Pontos: Vídeo</title>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+  </head>
+  <body>
+    <div id="SamplePlayerDivID"></div>
+    <script type="text/javascript">
+      var options = {
+        width: 854,
+        height: 480,
+        channel: "dallas",
+        parent: ["wellingtonsilverio.github.io"],
+      };
+      var player = new Twitch.Player("SamplePlayerDivID", options);
+      player.setVolume(0.5);
+    </script>
+  </body>
+</html>
